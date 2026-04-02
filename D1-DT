@@ -1,0 +1,79 @@
+1sT TASK *PROGRAM TEMPERATURE CONVERTION
+-------------------------------------------------------------------
+print("---This program is to convert temperatures---")
+print("Enter the no 1 to convert the Celsius to Fahrenheit")
+print("Enter the no 2 to convert the Fahrenheit to celsius") 
+a=int(input("Enter the option 1 or 2 :"))
+if a==1 :
+    b=int(input("Enter the Celsius temperature:"))
+    c=(b* 9/5)+32
+    print(b,"Celsius =",c,"Fahrenheit")
+elif a==2 :
+    b=int(input("Enter the Fahrenheit temperature:"))
+    c=(b-32)* 5/9
+    print(b,"Fahrenheir =",c,"Celsius")
+else :
+    print("Entered an wrong number")
+-----------------------------------------------------------------------
+---sample out put---
+---This program is to convert temperatures---
+Enter the no 1 to convert the Celsius to Fahrenheit
+Enter the no 2 to convert the Fahrenheit to celsius
+Enter the option 1 or 2 :2
+Enter the Fahrenheit temperature:345
+345 Fahrenheir = 173.88888888888889 
+============================================================================
+
+
+
+
+
+2nd TASK *PROGRAM SIMPLE CALCULATER 
+--------------------------------------------------------------------------
+print("---Simple Calculater---")
+a=float(input("Enter first number:"))
+op=input("Operations ( + | - | * | / ) choose any:").strip()
+b=float(input("Enter second number:"))
+if op == '+' :
+    print(a, "+",b,"=",a+b)
+elif op == '-':
+    print(a, "-",b, "=",a-b)
+elif op == '*' :
+    print(a, "*",b, "=",a*b)
+elif op == '/' :
+    print(a, "/",b, "=",a/b)
+else :
+    print("Error:Please enter the valid number")
+--------------------------------------------------------------------------------
+---sample output---
+---Simple Calculater---
+Enter first number:4
+Operations ( + | - | * | / ) choose any:-
+Enter second number:1
+4.0 - 1.0 = 3.0
+===================================================================================
+
+
+
+
+
+
+3rd TASK *PROGRAM ODD OR EVEN CHECKER 
+---------------------------------------------------------------------------------
+print("---This program is to check wether the given number is odd or even---")
+num=int(input("Enter the number that need to check:"))
+if num %2 == 0 :
+    print(num,"is Even number")
+else:
+    print(num,"is Odd number")
+---------------------------------------------------------------------------------
+---sample output---
+---This program is to check wether the given number is odd or even---
+Enter the number that need to check:5653
+5653 is Odd number
+====================================================================================
+
+
+    
+    
+
