@@ -1,0 +1,52 @@
+--02 APr 2026
+
+1. Git basics - git , add, pull, chnages , add , commit, push -> 
+2. basics of bot
+3. basics of claude AI
+4. basics of python
+
+
+HW: 3 basic program
+
+
+Task 1: Temperature Converter
+
+input: c into f
+
+i:20
+f: ?
+
+f:133
+c:?
+
+
+
+Task 2: Simple Calculator
+
+
+add : 2 3
+sub: 2 7'
+
+
+
+
+
+Task 3: Odd or Even Checker
+
+
+i-1
+o: Odd
+
+
+
+======================================
+
+
+--03-APr-2026
+
+GIT:
+1. Old history of old recovery
+2. compare two file - old vs new
+
+
+
