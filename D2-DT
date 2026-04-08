@@ -1,0 +1,138 @@
+#---1---FACTORIAL 
+n=int(input("Enter a number:"))
+result=1
+for i in range(1, n+1):
+    result *= i
+print("Factorial:", result)
+
+OTUPUT
+Enter the number:6
+Factorial:720
+  
+========================
+
+#---2---FIBONACCI SERIES
+n=int(input("How many terms?"))
+a,b=0,1
+for _ in range(n):
+    print(a, end=" ")
+    a,b=b,a+b
+
+OUTPUT
+How many terms? 5
+0 1 1 2 3 
+
+===========================
+
+#---3---PALINDEOME CHECK
+
+a=input("Enter a string:")
+if a==a[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+
+OUTPUT
+Enter the string:malayalam
+Palindrome
+
+===========================
+
+#---4---REVERSE A STRING
+
+a=input("Enter a string:")
+print("Reversed:", a[::-1])
+
+OUTPUT
+Enter a string:Faris
+Reversed:siraF
+
+===========================
+
+#---5---COUNT VOWELS
+
+a=input("Enter a string:")
+count=sum(1 for c in a.lower() if c in 'aeiou')
+print("Vowels:", count)
+
+OUTPUT
+Enter a string:faris
+Vowels:2
+
+==========================
+#---6---SIMPLE CALCULATOR
+
+a=float(input("First number:"))
+op=input("Operator (+,-,*,/):")
+b=float(input("Second number:"))
+if op=='+': 
+  print(a+b)
+elif op=='-':
+  print(a-b)
+elif op=='*':
+  print(a*b)
+elif op=='/':
+  print(a/b if b!=0 else "Error")
+
+OUTPUT
+
+First number:5
+Operator (+,-,*,/):*
+Secound number:30
+150
+============================
+
+#---7---SWAP TWO VARIABLES
+
+a=int(input("a:"))
+b=int(input("b:"))
+a,b=b,a
+print("a=",a,"b=",b)
+
+OUTPUT
+a:4
+b:5
+a=5 b=4
+
+=============================
+
+#---8---CHECK PRIME
+
+n=int(input("Enter a number:"))
+if n<2:
+    print("Not prime")
+elif all(n%i != 0 for i in range(2, int(n**0.5)+1)):
+    print("Prime")
+else:
+    print("Not prime")
+
+OUTPUT
+
+Enter a number:91
+Prime
+
+============================
+
+#---9---SUM OF DIGITS
+
+n=input("Enter a number:")
+print("Sum of digits:",sum(int(d) for d in n if d.isdigit()))
+
+OUTPUT
+
+Enter a number:1432
+Sum of digits:10
+
+================================
+
+#---10---LIST AVERAGE
+
+nums=list(map(int,input("Enter numbers (space-separated):").split()))
+print("Average:",sum(nums)/len(nums))
+
+OUTPUT
+
+Enter numbers:1 13 26 9 35
+Average:16.8
+
+======================================
