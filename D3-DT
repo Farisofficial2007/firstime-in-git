@@ -1,0 +1,133 @@
+#---1---LARGEST IN LIST
+  
+a=list(map(int, input("Enter numbers: ").split()))
+print("Largest:", max(a))
+
+OUYPUT
+Enter numbers:8 6 5 4 3 9 1
+Largest:9
+
+====================
+#---2---SORT A SILT
+
+a=list(map(int,input("Enter numbers:").split()))
+a.sort()
+print("Sorted:",nums)
+
+OUTPUT
+Enter numbers:2 6 9 8 3 5
+Sorted:[2, 3, 5, 6, 8, 9]
+
+==============================
+#---3---MULTIPLICATION TABLE
+
+n=int(input("Enter a number:"))
+for i in range(1, 11):
+    print(f"{n} x {i}={n*i}")
+
+OUTPUT
+Enter a number:3
+3 x 1=3
+3 x 2=6
+3 x 3=9
+3 x 4=12
+3 x 5=15
+3 x 6=18
+3 x 7=21
+3 x 8=24
+3 x 9=27
+3 x 10=30
+
+=============================
+#---4---COUNT WORDS
+s=input("Enter a sentence:")
+print("Word count:", len(s.split()))
+
+OUTPUT
+Enter a sentence:hello world
+Word count:2
+
+=============================
+#---5---UPPER AND LOWER CASE
+
+a=input("Enter a string:")
+print("Upper:",a.upper())
+print("Lower:",a.lower())
+
+OUTPUT
+Enter a string:Hello World
+Upper:HELLO WORLD
+Lower:hello world
+
+===============================
+#---6---GUESS THE RANDOM
+
+import random
+secret=random.randint(1, 100)
+guess=int(input("Guess (1-100): "))
+if guess == secret:
+    print("Correct!")
+elif guess < secret:
+    print("Too low!")
+else:
+    print("Too high!")
+
+OUTPUT
+Guess (1-100):12
+Too low!
+===================================
+#---7---GCD OF TWO NUMBERS
+
+import math
+a=int(input("First number:"))
+b=int(input("Second number:"))
+print("GCD:",math.gcd(a, b))
+
+OUTPUT
+First number:12
+Second number:9
+GCD: 3
+===================
+#---8---LCM OF TWO NUMBERS
+
+a=int(input("First: "))
+b=int(input("Second: "))
+print("LCM:", abs(a*b) // math.gcd(a,b))
+
+OUTPUT
+First:4
+Second:6
+
+===========================
+#---9---POWER OF A NUMBER
+
+base=int(input("Base:"))
+exp=int(input("Exponent:"))
+print(f"{base}^{exp}=", base**exp)
+
+OUTPUT
+Base:5
+Exponent:3
+5 ^ 3=125
+================================
+#---10---SQUARE ROOT
+
+import math
+n=float(input("Enter a number: "))
+print("Square root:", math.sqrt(n))
+
+OUTPUT
+Enter a number:25
+Square root:5
+=================================
+
+      
+
+
+
+
+
+
+
+
+  
